@@ -61,17 +61,17 @@ body{
 .menu ul li a:hover + ul, .menu .submenu:hover{
     display: block;
 }
-/estilos para la portada/
-.portada{
-    width: 100%;
-    height: 100%;
-    background: url("../Imagenes/pexels-pixabay-40568.jpg");
-    background-size: 100vw 100vh;
-}
-.logo{
-    background: url();
-    width: 10%;
-    padding: 13px 10px;
-    float: left;
-    line-height: 80px;
-}
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    }
+    .field:focus{
+    border-color: #18A383;
+    }
+    .mensaje{
+      text-align: center;
+        text-decoration: none;
+          color: #1a2537;
+        font-weight: 600;
+        font-size: 16px;
+    }
